@@ -13,7 +13,7 @@ describe('testing GameController', function(){
     this.gameCtrl.history = [];
     this.gameCtrl.player = {
       name: 'slug',
-      location: 'roomD',
+      location: 'roomD'
     };
   });
 

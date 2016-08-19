@@ -1,25 +1,25 @@
 'use strict';
 
 module.exports = {
-  reoomA: {
+  roomA: {
     north: 'wall',
     east: 'roomB',
-    south: 'rommC',
+    south: 'roomC',
     west: 'wall',
   },
-  reoomB: {
+  roomB: {
     north: 'wall',
     east: 'wall',
-    south: 'rommD',
-    west: 'reoomA',
+    south: 'roomD',
+    west: 'roomA',
   },
-  reoomC: {
+  roomC: {
     north: 'roomA',
     east: 'roomD',
     south: 'wall',
     west: 'wall',
   },
-  reoomD: {
+  roomD: {
     north: 'roomB',
     east: 'wall',
     south: 'wall',
