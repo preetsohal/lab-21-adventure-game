@@ -14,7 +14,7 @@ describe('testing GameController', function(){
     this.gameCtrl.player = {
       name: 'slug',
       location: 'roomB'
-      backPack: ['Diamond']
+      // BackPack: ['Diamond']
     };
   });
 
@@ -31,7 +31,4 @@ describe('testing GameController', function(){
     expect(this.gameCtrl.history[0].text).toBe('you hit the wall');
     expect(this.ganeCtrl.history[0].text).not.toContain('prize?');
   });
-});
-
-
 });
